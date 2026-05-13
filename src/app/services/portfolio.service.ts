@@ -25,57 +25,30 @@ export class PortfolioService {
     return [
       {
         id: 1,
-        title: 'DevConnect Platform',
-        description: 'A real-time developer collaboration platform with live code sharing, pair programming sessions, and integrated version control.',
-        tags: ['Angular', 'Node.js', 'Socket.io', 'MongoDB'],
+        title: 'Comptes',
+        description: 'a cloud-based accounting software specifically designed for non-profit organizations, NGOs, religious institutions (like churches), trusts, and societies.',
+        tags: ['Angular', 'Node.js', 'Postgresql', 'MongoDB','Expressjs'],
         liveUrl: '#',
         githubUrl: '#',
         featured: true
       },
       {
         id: 2,
-        title: 'AI Task Manager',
-        description: 'Smart task management app powered by ML for priority prediction and intelligent scheduling with natural language processing.',
-        tags: ['React', 'Python', 'TensorFlow', 'FastAPI'],
+        title: 'Eden Parish Management Software',
+        description: 'EDEN is a cloud based parish family and member management software with which any Christian parish can manage the entire members of that parish.',
+        tags: ['Angular', 'Node.js', 'Postgresql','Express js'],
         liveUrl: '#',
         githubUrl: '#',
         featured: true
       },
       {
         id: 3,
-        title: 'CryptoWatch Dashboard',
-        description: 'Real-time cryptocurrency tracking dashboard with portfolio management, price alerts, and advanced charting capabilities.',
-        tags: ['Vue.js', 'D3.js', 'WebSockets', 'Redis'],
+        title: 'Eden Parish Management App',
+       description: 'EDEN is a cloud based parish family and member management software with which any Christian parish can manage the entire members of that parish.',
+        tags: ['Angular', 'Node.js', 'Postgresql','Express js'],
         liveUrl: '#',
         githubUrl: '#',
         featured: true
-      },
-      {
-        id: 4,
-        title: 'E-Commerce API',
-        description: 'Scalable REST API for e-commerce platforms with microservices architecture, Stripe integration, and comprehensive admin panel.',
-        tags: ['Node.js', 'PostgreSQL', 'Docker', 'AWS'],
-        liveUrl: '#',
-        githubUrl: '#',
-        featured: false
-      },
-      {
-        id: 5,
-        title: 'Social Analytics Tool',
-        description: 'Social media analytics and reporting tool with beautiful data visualizations and automated PDF report generation.',
-        tags: ['Angular', 'Chart.js', 'Firebase', 'Tailwind'],
-        liveUrl: '#',
-        githubUrl: '#',
-        featured: false
-      },
-      {
-        id: 6,
-        title: 'DevOps Pipeline CLI',
-        description: 'Command-line tool for automating CI/CD pipelines with multi-cloud support, rollback capabilities, and Slack notifications.',
-        tags: ['Go', 'Docker', 'Kubernetes', 'GitHub Actions'],
-        liveUrl: '#',
-        githubUrl: '#',
-        featured: false
       }
     ];
   }
