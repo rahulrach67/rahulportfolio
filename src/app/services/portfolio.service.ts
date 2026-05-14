@@ -57,20 +57,16 @@ export class PortfolioService {
     return [
       // Frontend
       { name: 'Angular', level: 92, category: 'Frontend' },
-      { name: 'React', level: 85, category: 'Frontend' },
       { name: 'TypeScript', level: 90, category: 'Frontend' },
-      { name: 'Vue.js', level: 75, category: 'Frontend' },
       { name: 'SCSS/CSS', level: 88, category: 'Frontend' },
       // Backend
       { name: 'Node.js', level: 87, category: 'Backend' },
-      { name: 'Python', level: 80, category: 'Backend' },
       { name: 'REST APIs', level: 92, category: 'Backend' },
-      { name: 'GraphQL', level: 72, category: 'Backend' },
+      { name: 'Express.js', level: 92, category: 'Backend' },
+
       // Database & DevOps
       { name: 'MongoDB', level: 83, category: 'Database' },
       { name: 'PostgreSQL', level: 78, category: 'Database' },
-      { name: 'Docker', level: 76, category: 'DevOps' },
-      { name: 'AWS', level: 70, category: 'DevOps' },
       { name: 'Git / GitHub', level: 93, category: 'DevOps' }
     ];
   }
